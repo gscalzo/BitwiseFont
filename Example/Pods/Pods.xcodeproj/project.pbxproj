@@ -1,0 +1,878 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02DBFFD882F2FD1C4934F99A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40437A0531AB1C5DC21586B2 /* UIKit.framework */; };
+		09E6335FA4CC52A8FCFB54BA /* UIFont+Bitwise.m in Sources */ = {isa = PBXBuildFile; fileRef = 73976B4075FE1E026140854D /* UIFont+Bitwise.m */; };
+		1130992A142794843C217403 /* UIFont+Bitwise.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D978C3D3D272A0B53BC5EDE /* UIFont+Bitwise.h */; };
+		1CB774E7CCC6A7769AAE13FC /* Bitwise.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5213681AE58D90DFBD1769FD /* Bitwise.ttf */; };
+		2FFEB7C0BCD2C2C5ACFCD869 /* Pods-Tests-BitwiseFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F31D06F334CE5FED62650AE /* Pods-Tests-BitwiseFont-dummy.m */; };
+		301728D04E0B5A5C1F78D3BF /* Bitwise.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5213681AE58D90DFBD1769FD /* Bitwise.ttf */; };
+		34EAC5C3E858CE593B344688 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1849DC4010E2F74E17205604 /* CoreText.framework */; };
+		4D91A34A66322A85063D1689 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EA3A1D2C3FCFBA564BCE4F /* Foundation.framework */; };
+		5EA1C28B106C036213F5A753 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1849DC4010E2F74E17205604 /* CoreText.framework */; };
+		6019FF4E7E4D152C20AD5254 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40437A0531AB1C5DC21586B2 /* UIKit.framework */; };
+		8EFA9B08E9F6EE031EFD5D90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EA3A1D2C3FCFBA564BCE4F /* Foundation.framework */; };
+		A18B25F58A78CE50229E6DFD /* Pods-BitwiseFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46780F8D934FD3D01E041A23 /* Pods-BitwiseFont-dummy.m */; };
+		C20DE2D20941E3701830E7F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EA3A1D2C3FCFBA564BCE4F /* Foundation.framework */; };
+		D9C7B1DA42075142C947C2DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EA3A1D2C3FCFBA564BCE4F /* Foundation.framework */; };
+		DADEF7D274DA6E27EACBB550 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF46A00F0E9440FAB8C86152 /* Pods-Tests-dummy.m */; };
+		E05E7DABA32BF018382BABFF /* UIFont+Bitwise.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D978C3D3D272A0B53BC5EDE /* UIFont+Bitwise.h */; };
+		E1E1AD932EDD4082A2D5C563 /* Pods-BitwiseFont-BitwiseFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C703F773E297F48796BC7E8D /* Pods-BitwiseFont-BitwiseFont-dummy.m */; };
+		FAE83637A19F6855E172BF61 /* UIFont+Bitwise.m in Sources */ = {isa = PBXBuildFile; fileRef = 73976B4075FE1E026140854D /* UIFont+Bitwise.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A8E1E0650FA45CDB1FD67C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DB0468E901608B096EC3805 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 922BEDA6287D6587D7DF58DC;
+			remoteInfo = "Pods-Tests-BitwiseFont";
+		};
+		53C6D0276A11347202681512 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DB0468E901608B096EC3805 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC4C41A5760E566541B016F4;
+			remoteInfo = "Pods-BitwiseFont-BitwiseFont";
+		};
+		5B8C2DEC64B20A5C1F7D8993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DB0468E901608B096EC3805 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F1D4875B7ADD1E47FFF6F10;
+			remoteInfo = "Pods-BitwiseFont-BitwiseFont-BitwiseFont";
+		};
+		E73262C8DD56C1A994FBACB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DB0468E901608B096EC3805 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B58974EF15A061B9A2543FC8;
+			remoteInfo = "Pods-Tests-BitwiseFont-BitwiseFont";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		073DF05FC169A5BEF5F0B838 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		14CB15D7C861A14B2A64BA6B /* BitwiseFont.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitwiseFont.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1849DC4010E2F74E17205604 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		1E1E6814272E5E82F9AFD3F1 /* Pods-BitwiseFont-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BitwiseFont-resources.sh"; sourceTree = "<group>"; };
+		1F31D06F334CE5FED62650AE /* Pods-Tests-BitwiseFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-BitwiseFont-dummy.m"; path = "../Pods-Tests-BitwiseFont/Pods-Tests-BitwiseFont-dummy.m"; sourceTree = "<group>"; };
+		2D978C3D3D272A0B53BC5EDE /* UIFont+Bitwise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFont+Bitwise.h"; sourceTree = "<group>"; };
+		30CE18312E31F043ED45A1BC /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		37ADD98A503B566DCB4631E1 /* Pods-BitwiseFont.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BitwiseFont.release.xcconfig"; sourceTree = "<group>"; };
+		40437A0531AB1C5DC21586B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		41BBE0A68F59DACD4F8C15D9 /* libPods-Tests-BitwiseFont.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-BitwiseFont.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45935D9136A699414888E414 /* Pods-BitwiseFont-BitwiseFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BitwiseFont-BitwiseFont.xcconfig"; sourceTree = "<group>"; };
+		46780F8D934FD3D01E041A23 /* Pods-BitwiseFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BitwiseFont-dummy.m"; sourceTree = "<group>"; };
+		47A33BE3F45183E2D60C78B3 /* Pods-BitwiseFont-BitwiseFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BitwiseFont-BitwiseFont-prefix.pch"; sourceTree = "<group>"; };
+		48D2DEC0DD48903F49A58248 /* Pods-BitwiseFont-BitwiseFont-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BitwiseFont-BitwiseFont-Private.xcconfig"; sourceTree = "<group>"; };
+		5213681AE58D90DFBD1769FD /* Bitwise.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = Bitwise.ttf; sourceTree = "<group>"; };
+		54E11B0BB01666610B9885CB /* Pods-Tests-BitwiseFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-BitwiseFont.xcconfig"; path = "../Pods-Tests-BitwiseFont/Pods-Tests-BitwiseFont.xcconfig"; sourceTree = "<group>"; };
+		677E37A2148BACB8C9B4D5F5 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73976B4075FE1E026140854D /* UIFont+Bitwise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Bitwise.m"; sourceTree = "<group>"; };
+		8EBA713F48AF794443A64349 /* Pods-BitwiseFont-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BitwiseFont-environment.h"; sourceTree = "<group>"; };
+		943C8CEF240C655C27931A3C /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		9902964B38881D3954007513 /* BitwiseFont.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitwiseFont.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61E2815F03CD3E03D390DC3 /* libPods-BitwiseFont-BitwiseFont.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BitwiseFont-BitwiseFont.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6AFCBD88F206ACC5BBC979 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C0734C008933D0E9D5826A1F /* Pods-BitwiseFont.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BitwiseFont.debug.xcconfig"; sourceTree = "<group>"; };
+		C703F773E297F48796BC7E8D /* Pods-BitwiseFont-BitwiseFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BitwiseFont-BitwiseFont-dummy.m"; sourceTree = "<group>"; };
+		C81DB9CF5FDFB896858FFFB6 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB9A2149DE09DA39CE81197E /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D43F09F2B148BE3F1F39D504 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		D688FC4D17A4E3E0544F1285 /* Pods-BitwiseFont-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BitwiseFont-acknowledgements.plist"; sourceTree = "<group>"; };
+		DB03263B688448736538AFFA /* libPods-BitwiseFont.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BitwiseFont.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD36DC95881326C7C75A5999 /* Pods-Tests-BitwiseFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-BitwiseFont-prefix.pch"; path = "../Pods-Tests-BitwiseFont/Pods-Tests-BitwiseFont-prefix.pch"; sourceTree = "<group>"; };
+		E0BAC92012B5303D54A065DD /* Pods-BitwiseFont-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BitwiseFont-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E3EA3A1D2C3FCFBA564BCE4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E9649E0D5A7DF95123BD7C01 /* Pods-Tests-BitwiseFont-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-BitwiseFont-Private.xcconfig"; path = "../Pods-Tests-BitwiseFont/Pods-Tests-BitwiseFont-Private.xcconfig"; sourceTree = "<group>"; };
+		EF46A00F0E9440FAB8C86152 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1718A3E29FB84169B3ECC2F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34EAC5C3E858CE593B344688 /* CoreText.framework in Frameworks */,
+				D9C7B1DA42075142C947C2DF /* Foundation.framework in Frameworks */,
+				6019FF4E7E4D152C20AD5254 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709388FC725A6C4EF1FD872B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFA9B08E9F6EE031EFD5D90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		721C848EFB67D7C57BA8FE92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA1C28B106C036213F5A753 /* CoreText.framework in Frameworks */,
+				4D91A34A66322A85063D1689 /* Foundation.framework in Frameworks */,
+				02DBFFD882F2FD1C4934F99A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923D37974D316181044093AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20DE2D20941E3701830E7F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7637D86F4B8DA132FF1BBEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B34502BCC2BB84C5A78E152F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ED0B4128C766C3F05181D25 = {
+			isa = PBXGroup;
+			children = (
+				30CE18312E31F043ED45A1BC /* Podfile */,
+				9B5AA8BA6BD4FC34C8021238 /* Development Pods */,
+				ABEB1CB2C42DCE33F8560727 /* Frameworks */,
+				5869A876FB74DB3151FE15BD /* Products */,
+				EB5F611776B434407963E7C2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		27840FDEA7F17269A09E748D /* Pods-BitwiseFont */ = {
+			isa = PBXGroup;
+			children = (
+				E0BAC92012B5303D54A065DD /* Pods-BitwiseFont-acknowledgements.markdown */,
+				D688FC4D17A4E3E0544F1285 /* Pods-BitwiseFont-acknowledgements.plist */,
+				46780F8D934FD3D01E041A23 /* Pods-BitwiseFont-dummy.m */,
+				8EBA713F48AF794443A64349 /* Pods-BitwiseFont-environment.h */,
+				1E1E6814272E5E82F9AFD3F1 /* Pods-BitwiseFont-resources.sh */,
+				C0734C008933D0E9D5826A1F /* Pods-BitwiseFont.debug.xcconfig */,
+				37ADD98A503B566DCB4631E1 /* Pods-BitwiseFont.release.xcconfig */,
+			);
+			name = "Pods-BitwiseFont";
+			path = "Target Support Files/Pods-BitwiseFont";
+			sourceTree = "<group>";
+		};
+		2E059C9EEF2978574168118E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5BC943E4D6E47F49E7A723C4 /* Assets */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		310CDD05FDF8015954BDD830 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1849DC4010E2F74E17205604 /* CoreText.framework */,
+				E3EA3A1D2C3FCFBA564BCE4F /* Foundation.framework */,
+				40437A0531AB1C5DC21586B2 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		403AE0AD56E09C6D26E0EA87 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2E059C9EEF2978574168118E /* Pod */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		452A91BD6B05736D0EAF7F17 /* BitwiseFont */ = {
+			isa = PBXGroup;
+			children = (
+				CCD25AE79CABA1F7F3E7B022 /* Pod */,
+				403AE0AD56E09C6D26E0EA87 /* Resources */,
+				B9213ADCD183DE92875B35E2 /* Support Files */,
+			);
+			name = BitwiseFont;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4A84590CE49B9600BDAB9B53 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2D978C3D3D272A0B53BC5EDE /* UIFont+Bitwise.h */,
+				73976B4075FE1E026140854D /* UIFont+Bitwise.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5869A876FB74DB3151FE15BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9902964B38881D3954007513 /* BitwiseFont.bundle */,
+				14CB15D7C861A14B2A64BA6B /* BitwiseFont.bundle */,
+				DB03263B688448736538AFFA /* libPods-BitwiseFont.a */,
+				B61E2815F03CD3E03D390DC3 /* libPods-BitwiseFont-BitwiseFont.a */,
+				677E37A2148BACB8C9B4D5F5 /* libPods-Tests.a */,
+				41BBE0A68F59DACD4F8C15D9 /* libPods-Tests-BitwiseFont.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BC943E4D6E47F49E7A723C4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5213681AE58D90DFBD1769FD /* Bitwise.ttf */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9B5AA8BA6BD4FC34C8021238 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				452A91BD6B05736D0EAF7F17 /* BitwiseFont */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		ABEB1CB2C42DCE33F8560727 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				310CDD05FDF8015954BDD830 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9213ADCD183DE92875B35E2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				45935D9136A699414888E414 /* Pods-BitwiseFont-BitwiseFont.xcconfig */,
+				48D2DEC0DD48903F49A58248 /* Pods-BitwiseFont-BitwiseFont-Private.xcconfig */,
+				C703F773E297F48796BC7E8D /* Pods-BitwiseFont-BitwiseFont-dummy.m */,
+				47A33BE3F45183E2D60C78B3 /* Pods-BitwiseFont-BitwiseFont-prefix.pch */,
+				54E11B0BB01666610B9885CB /* Pods-Tests-BitwiseFont.xcconfig */,
+				E9649E0D5A7DF95123BD7C01 /* Pods-Tests-BitwiseFont-Private.xcconfig */,
+				1F31D06F334CE5FED62650AE /* Pods-Tests-BitwiseFont-dummy.m */,
+				DD36DC95881326C7C75A5999 /* Pods-Tests-BitwiseFont-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-BitwiseFont-BitwiseFont";
+			sourceTree = "<group>";
+		};
+		BB9A79D0426B389D62D86EAE /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C81DB9CF5FDFB896858FFFB6 /* Pods-Tests-acknowledgements.markdown */,
+				BC6AFCBD88F206ACC5BBC979 /* Pods-Tests-acknowledgements.plist */,
+				EF46A00F0E9440FAB8C86152 /* Pods-Tests-dummy.m */,
+				943C8CEF240C655C27931A3C /* Pods-Tests-environment.h */,
+				D43F09F2B148BE3F1F39D504 /* Pods-Tests-resources.sh */,
+				073DF05FC169A5BEF5F0B838 /* Pods-Tests.debug.xcconfig */,
+				CB9A2149DE09DA39CE81197E /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		CCD25AE79CABA1F7F3E7B022 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4A84590CE49B9600BDAB9B53 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		EB5F611776B434407963E7C2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27840FDEA7F17269A09E748D /* Pods-BitwiseFont */,
+				BB9A79D0426B389D62D86EAE /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E1E70D54E38D0DB6C7314528 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05E7DABA32BF018382BABFF /* UIFont+Bitwise.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF154C7235FC38227F054731 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1130992A142794843C217403 /* UIFont+Bitwise.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F1D4875B7ADD1E47FFF6F10 /* Pods-BitwiseFont-BitwiseFont-BitwiseFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA75E07BD33791CEDF9378C /* Build configuration list for PBXNativeTarget "Pods-BitwiseFont-BitwiseFont-BitwiseFont" */;
+			buildPhases = (
+				56C2AF64FFE13DD15FAE2299 /* Sources */,
+				A7637D86F4B8DA132FF1BBEB /* Frameworks */,
+				5783BDF835AE0E959106C36F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BitwiseFont-BitwiseFont-BitwiseFont";
+			productName = "Pods-BitwiseFont-BitwiseFont-BitwiseFont";
+			productReference = 14CB15D7C861A14B2A64BA6B /* BitwiseFont.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5F1A623D74974895643ACBE7 /* Pods-BitwiseFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152BF7ABA431EA979E8E8EA2 /* Build configuration list for PBXNativeTarget "Pods-BitwiseFont" */;
+			buildPhases = (
+				7A2F80DD005C5332031ACC37 /* Sources */,
+				923D37974D316181044093AC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F787C0F0BA84E673AFEFC6F2 /* PBXTargetDependency */,
+			);
+			name = "Pods-BitwiseFont";
+			productName = "Pods-BitwiseFont";
+			productReference = DB03263B688448736538AFFA /* libPods-BitwiseFont.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		922BEDA6287D6587D7DF58DC /* Pods-Tests-BitwiseFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD830247A1ECFBA56C563C0E /* Build configuration list for PBXNativeTarget "Pods-Tests-BitwiseFont" */;
+			buildPhases = (
+				0223FD0B6DAC2591AE9C2619 /* Sources */,
+				721C848EFB67D7C57BA8FE92 /* Frameworks */,
+				FF154C7235FC38227F054731 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8253CA67314F486CEFCC611D /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-BitwiseFont";
+			productName = "Pods-Tests-BitwiseFont";
+			productReference = 41BBE0A68F59DACD4F8C15D9 /* libPods-Tests-BitwiseFont.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B58974EF15A061B9A2543FC8 /* Pods-Tests-BitwiseFont-BitwiseFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B5A5D0FCBECCC922F9C605 /* Build configuration list for PBXNativeTarget "Pods-Tests-BitwiseFont-BitwiseFont" */;
+			buildPhases = (
+				0223EF3031A3E4E1C053FD56 /* Sources */,
+				B34502BCC2BB84C5A78E152F /* Frameworks */,
+				BBED413C8EDF31055D561E41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-BitwiseFont-BitwiseFont";
+			productName = "Pods-Tests-BitwiseFont-BitwiseFont";
+			productReference = 9902964B38881D3954007513 /* BitwiseFont.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		EFABF00EBD1AB324A11017D8 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BEAF3C803A84DE2816C941E /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				6F62572097EB0EC2A8A50099 /* Sources */,
+				709388FC725A6C4EF1FD872B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B407B72A2AD0F0E82406C6B /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 677E37A2148BACB8C9B4D5F5 /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FC4C41A5760E566541B016F4 /* Pods-BitwiseFont-BitwiseFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30354E5E79244135E74F47A7 /* Build configuration list for PBXNativeTarget "Pods-BitwiseFont-BitwiseFont" */;
+			buildPhases = (
+				5C21F1DC205EE992B986D4E7 /* Sources */,
+				1718A3E29FB84169B3ECC2F9 /* Frameworks */,
+				E1E70D54E38D0DB6C7314528 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCE5A043065AE66D36E94BF0 /* PBXTargetDependency */,
+			);
+			name = "Pods-BitwiseFont-BitwiseFont";
+			productName = "Pods-BitwiseFont-BitwiseFont";
+			productReference = B61E2815F03CD3E03D390DC3 /* libPods-BitwiseFont-BitwiseFont.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DB0468E901608B096EC3805 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = D8C82344C571639197B14AEB /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1ED0B4128C766C3F05181D25;
+			productRefGroup = 5869A876FB74DB3151FE15BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F1A623D74974895643ACBE7 /* Pods-BitwiseFont */,
+				FC4C41A5760E566541B016F4 /* Pods-BitwiseFont-BitwiseFont */,
+				0F1D4875B7ADD1E47FFF6F10 /* Pods-BitwiseFont-BitwiseFont-BitwiseFont */,
+				EFABF00EBD1AB324A11017D8 /* Pods-Tests */,
+				922BEDA6287D6587D7DF58DC /* Pods-Tests-BitwiseFont */,
+				B58974EF15A061B9A2543FC8 /* Pods-Tests-BitwiseFont-BitwiseFont */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5783BDF835AE0E959106C36F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB774E7CCC6A7769AAE13FC /* Bitwise.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBED413C8EDF31055D561E41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301728D04E0B5A5C1F78D3BF /* Bitwise.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0223EF3031A3E4E1C053FD56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0223FD0B6DAC2591AE9C2619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FFEB7C0BCD2C2C5ACFCD869 /* Pods-Tests-BitwiseFont-dummy.m in Sources */,
+				FAE83637A19F6855E172BF61 /* UIFont+Bitwise.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C2AF64FFE13DD15FAE2299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C21F1DC205EE992B986D4E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E1AD932EDD4082A2D5C563 /* Pods-BitwiseFont-BitwiseFont-dummy.m in Sources */,
+				09E6335FA4CC52A8FCFB54BA /* UIFont+Bitwise.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F62572097EB0EC2A8A50099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADEF7D274DA6E27EACBB550 /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2F80DD005C5332031ACC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18B25F58A78CE50229E6DFD /* Pods-BitwiseFont-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B407B72A2AD0F0E82406C6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-BitwiseFont";
+			target = 922BEDA6287D6587D7DF58DC /* Pods-Tests-BitwiseFont */;
+			targetProxy = 3A8E1E0650FA45CDB1FD67C4 /* PBXContainerItemProxy */;
+		};
+		8253CA67314F486CEFCC611D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-BitwiseFont-BitwiseFont";
+			target = B58974EF15A061B9A2543FC8 /* Pods-Tests-BitwiseFont-BitwiseFont */;
+			targetProxy = E73262C8DD56C1A994FBACB8 /* PBXContainerItemProxy */;
+		};
+		CCE5A043065AE66D36E94BF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BitwiseFont-BitwiseFont-BitwiseFont";
+			target = 0F1D4875B7ADD1E47FFF6F10 /* Pods-BitwiseFont-BitwiseFont-BitwiseFont */;
+			targetProxy = 5B8C2DEC64B20A5C1F7D8993 /* PBXContainerItemProxy */;
+		};
+		F787C0F0BA84E673AFEFC6F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BitwiseFont-BitwiseFont";
+			target = FC4C41A5760E566541B016F4 /* Pods-BitwiseFont-BitwiseFont */;
+			targetProxy = 53C6D0276A11347202681512 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3030ED3D9790893BDE966CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB9A2149DE09DA39CE81197E /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		76E09F01D0FE658FFE6F6BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48D2DEC0DD48903F49A58248 /* Pods-BitwiseFont-BitwiseFont-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-BitwiseFont-BitwiseFont/Pods-BitwiseFont-BitwiseFont-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		809B0F6CAF05A0E933A1C457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9649E0D5A7DF95123BD7C01 /* Pods-Tests-BitwiseFont-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-BitwiseFont/Pods-Tests-BitwiseFont-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		86686545B5025AD9DC35923C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		97326A4048040A2CF972BA4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BitwiseFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A10299868C59AB858363A4C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BitwiseFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A6731024A265F487C19FF283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BitwiseFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CC6F351260DAD0A5958B7727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37ADD98A503B566DCB4631E1 /* Pods-BitwiseFont.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CDB7BF5013B4142747E06809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0734C008933D0E9D5826A1F /* Pods-BitwiseFont.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D463C9196A560EBEE672AB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9649E0D5A7DF95123BD7C01 /* Pods-Tests-BitwiseFont-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-BitwiseFont/Pods-Tests-BitwiseFont-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DD33516BDA6E16048B1A8152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 073DF05FC169A5BEF5F0B838 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F267835FBAEAD0C0E7E9593E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BitwiseFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FA34C49DEA9DD571C295E657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD7F7D9C950FD535694B2C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48D2DEC0DD48903F49A58248 /* Pods-BitwiseFont-BitwiseFont-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-BitwiseFont-BitwiseFont/Pods-BitwiseFont-BitwiseFont-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		152BF7ABA431EA979E8E8EA2 /* Build configuration list for PBXNativeTarget "Pods-BitwiseFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB7BF5013B4142747E06809 /* Debug */,
+				CC6F351260DAD0A5958B7727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BEAF3C803A84DE2816C941E /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD33516BDA6E16048B1A8152 /* Debug */,
+				3030ED3D9790893BDE966CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30354E5E79244135E74F47A7 /* Build configuration list for PBXNativeTarget "Pods-BitwiseFont-BitwiseFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E09F01D0FE658FFE6F6BF1 /* Debug */,
+				FD7F7D9C950FD535694B2C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B5A5D0FCBECCC922F9C605 /* Build configuration list for PBXNativeTarget "Pods-Tests-BitwiseFont-BitwiseFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F267835FBAEAD0C0E7E9593E /* Debug */,
+				A10299868C59AB858363A4C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8C82344C571639197B14AEB /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86686545B5025AD9DC35923C /* Debug */,
+				FA34C49DEA9DD571C295E657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD830247A1ECFBA56C563C0E /* Build configuration list for PBXNativeTarget "Pods-Tests-BitwiseFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				809B0F6CAF05A0E933A1C457 /* Debug */,
+				D463C9196A560EBEE672AB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA75E07BD33791CEDF9378C /* Build configuration list for PBXNativeTarget "Pods-BitwiseFont-BitwiseFont-BitwiseFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97326A4048040A2CF972BA4F /* Debug */,
+				A6731024A265F487C19FF283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DB0468E901608B096EC3805 /* Project object */;
+}

@@ -1,0 +1,14 @@
+PODS:
+  - BitwiseFont (0.1.0)
+
+DEPENDENCIES:
+  - BitwiseFont (from `../`)
+
+EXTERNAL SOURCES:
+  BitwiseFont:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BitwiseFont: 0a0f71aef95e91b77ec1f36130a54538749ed4be
+
+COCOAPODS: 0.36.0

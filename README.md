@@ -1,15 +1,33 @@
 # BitwiseFont
 
-[![CI Status](http://img.shields.io/travis/giordano scalzo/BitwiseFont.svg?style=flat)](https://travis-ci.org/giordano scalzo/BitwiseFont)
+[![Twitter](https://img.shields.io/badge/contact-@GiordanoScalzo-blue.svg?style=flat)](http://twitter.com/giordanoscalzo)
 [![Version](https://img.shields.io/cocoapods/v/BitwiseFont.svg?style=flat)](http://cocoadocs.org/docsets/BitwiseFont)
 [![License](https://img.shields.io/cocoapods/l/BitwiseFont.svg?style=flat)](http://cocoadocs.org/docsets/BitwiseFont)
-[![Platform](https://img.shields.io/cocoapods/p/BitwiseFont.svg?style=flat)](http://cocoadocs.org/docsets/BitwiseFont)
+[![CocoaPods](https://img.shields.io/cocoapods/v/LatoFont.svg?style=flat)](https://github.com/giordanoscalzo/BitwiseFont)
+
+Brings [Bitwise][Bitwise] font to iOS.
 
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+![screenshot](https://github.com/gscalzo/BitwiseFont/blob/master/vertical_screenshot.png)
+
+```objc
+#import "UIFont+Bitwise.h"
+
+@implementation ExampleVC
+
+- (void)viewDidLoad {
+   [super viewDidLoad];
+
+   CGFloat size = 17.0;
+
+   self.bitwiseLabel.font = [UIFont bitwiseFontOfSize:size];
+}
+
+@end
+```
 
 ## Installation
 

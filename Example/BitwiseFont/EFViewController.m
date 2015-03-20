@@ -7,8 +7,11 @@
 //
 
 #import "EFViewController.h"
+#import "UIFont+Bitwise.h"
 
 @interface EFViewController ()
+
+@property (weak, nonatomic) IBOutlet UILabel *bitwiseLabel;
 
 @end
 
@@ -17,7 +20,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.bitwiseLabel.text = @"Bitwise - ABCDEFGIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789";
+    self.bitwiseLabel.font = [UIFont bitwiseFontOfSize:28.0f];
 }
 
 - (void)didReceiveMemoryWarning
