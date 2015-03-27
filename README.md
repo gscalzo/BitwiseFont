@@ -3,9 +3,9 @@
 [![Twitter](https://img.shields.io/badge/contact-@GiordanoScalzo-blue.svg?style=flat)](http://twitter.com/giordanoscalzo)
 [![Version](https://img.shields.io/cocoapods/v/BitwiseFont.svg?style=flat)](http://cocoadocs.org/docsets/BitwiseFont)
 [![License](https://img.shields.io/cocoapods/l/BitwiseFont.svg?style=flat)](http://cocoadocs.org/docsets/BitwiseFont)
-[![CocoaPods](https://img.shields.io/cocoapods/v/LatoFont.svg?style=flat)](https://github.com/giordanoscalzo/BitwiseFont)
+[![CocoaPods](https://img.shields.io/cocoapods/v/BitwiseFont.svg?style=flat)](https://github.com/giordanoscalzo/BitwiseFont)
 
-Brings [Bitwise][Bitwise] font to iOS.
+Brings [Bitwise](http://www.dafont.com/bitwise.font) font to iOS.
 
 ## Usage
 
